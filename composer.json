@@ -5,7 +5,12 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Dumb\\Dumb\\": "src/"
+      "Dumb\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DumbTest\\": "test"
     }
   },
   "require-dev": {
@@ -13,5 +18,10 @@
   },
   "config": {
     "sort-packages": true
+  },
+  "scripts": {
+    "test": [
+      "phpunit"
+    ]
   }
 }
