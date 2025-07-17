@@ -8,11 +8,7 @@
             "Dumb\\Dumb\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Wanderson Camargo",
-            "email": "wandersonwhcr@gmail.com"
-        }
-    ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^12.2"
+    }
 }
