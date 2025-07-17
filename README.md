@@ -1,3 +1,3 @@
-# my-simple-package
+# php-dumb
 
-My Simple Package
+A Dumb Package
