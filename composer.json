@@ -25,7 +25,9 @@
   "scripts": {
     "test": [
       "phplint",
-      "phpunit $COVERAGE_OPTIONS",
+      "phpunit $COVERAGE_OPTIONS"
+    ],
+    "scan": [
       "phpstan"
     ]
   }
