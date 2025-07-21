@@ -14,6 +14,6 @@ class Dumb
      */
     public function isTrue(): bool
     {
-        return false;
+        return true;
     }
 }
