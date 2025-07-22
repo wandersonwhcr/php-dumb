@@ -27,7 +27,7 @@
       "phplint",
       "phpunit $COVERAGE_OPTIONS"
     ],
-    "scan": [
+    "sast": [
       "phpstan"
     ]
   }
